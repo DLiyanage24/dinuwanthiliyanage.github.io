@@ -1,0 +1,45 @@
+---
+title: "Presentation"
+auther: "Dinuwanthi Liyanage"
+institute: "University of Nebraska Lincoln"
+year: "2023"
+format: revealjs
+editor: visual
+---
+
+## Introduction
+
+-   My name is **Dinuwathi Liyanage.**
+-   I'm from Sri Lanka,it is a beautiful island in the Indian Ocean.
+-   I grew up in the central part of the country.
+-   My birthday is on 24th of July and that is one of my most favorite days in the year.
+-   Currently I'm following a **Masters Degree in Statistics** at University of Nebraska Lincoln.
+-   I expect to graduate in 2025.
+
+------------------------------------------------------------------------
+
+### My favorite animal
+
+![](images/cat1.jpg){width="350"}
+
+------------------------------------------------------------------------
+
+### My favorite plot
+
+```{r}
+library(mclust)
+data(banknote)
+
+library(ggplot2)
+
+ggplot(banknote, aes(x = Length, fill = Status)) +
+  geom_histogram(binwidth = 0.1, color = "black" ) + #, position = "dodge") 
+  labs(title = "Histogram of Banknote Length", x = "Length", y = "Frequency") 
+
+
+
+```
+
+------------------------------------------------------------------------
+
+### CV Link
